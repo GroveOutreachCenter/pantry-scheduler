@@ -30,7 +30,7 @@ var areas = ["Shopper 1", "Shopper 2", "Shopper 3", "Shopper 4"];
 var bookingStorageKey = "community-pantry-bookings-v2";
 var hoursStorageKey = "community-pantry-hours-v2";
 var staffAccessStorageKey = "community-pantry-staff-access";
-var staffAccessCodeValue = "1234";
+var staffAccessCodeValue = "TheLordIsMyShepherd";
 
 var days = loadDays();
 var activeDayId = getFirstEnabledDayId(days) || days[0].id;
