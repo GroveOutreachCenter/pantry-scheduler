@@ -1,3 +1,7 @@
+var supabaseUrl = "https://ejhprkeowxpimzpchhpo.supabase.co";
+var supabaseKey = "sb_publishable_your_actual_key_here";
+var supabaseClient = window.supabase.createClient(supabaseUrl, supabaseKey);
+
 var defaultDays = [
   {
     id: "mon",
